@@ -15,8 +15,6 @@ $(NAME):
 	gcc -o $(DQ2) $(DQ2).o
 	gcc -o $(DQ3) $(DQ3).o
 
-	rm -rf $(DQ1).o $(DQ2).o $(DQ3).o
-
 clean:
 	rm -rf $(DQ1).o $(DQ2).o $(DQ3).o
 
